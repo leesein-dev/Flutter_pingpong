@@ -3,13 +3,19 @@ import 'dart:async';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:pingpong/utilities/custom/image/custom_logo_image.dart';
+import 'package:pingpong/components/image/custom_logo_image.dart';
 
 class SplashController extends GetxController {
+
   @override
   void onInit() {
     super.onInit();
-    Timer(const Duration(milliseconds: 1500), () => Get.offAllNamed('/home'));
+    Timer(const Duration(milliseconds: 1500), () => Get.offAndToNamed('/home'));
+  }
+
+  @override
+  void onClose() {
+    super.onClose();
   }
 
 }

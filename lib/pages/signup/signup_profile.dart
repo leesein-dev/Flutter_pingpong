@@ -4,7 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:pingpong/controller/sigunup_controller.dart';
-import 'package:pingpong/utilities/custom/color/custom_color.dart';
+import 'package:pingpong/components/color/custom_color.dart';
 
 class SignupProfile extends StatelessWidget {
   const SignupProfile({Key? key}) : super(key: key);

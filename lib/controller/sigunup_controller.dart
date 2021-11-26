@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:pingpong/data/signup_data.dart';
-import 'package:pingpong/utilities/custom/snackbar/custom_snackbar.dart';
+import 'package:pingpong/components/snackbar/custom_snackbar.dart';
 
 class SignupController extends GetxController
     with SingleGetTickerProviderMixin {
@@ -25,6 +25,19 @@ class SignupController extends GetxController
     studentIdController.text = '';
     emailController.text = '';
     emailCodeController.text = '';
+  }
+
+  @override
+  void onClose() {
+
+    nicknameController.dispose();
+    schoolController.dispose();
+    departmentController.dispose();
+    studentIdController.dispose();
+    emailController.dispose();
+    emailCodeController.dispose();
+
+    super.onClose();
   }
 
   //------------------사용자 정보------------------//
@@ -126,15 +139,8 @@ class SignupController extends GetxController
     update(['Type']);
   }
 
-  @override
-  void onClose() {
-    nicknameController.dispose();
-    schoolController.dispose();
-    departmentController.dispose();
-    studentIdController.dispose();
-    emailController.dispose();
-    emailCodeController.dispose();
-    super.dispose();
+  void gotoHome() {
+    Get.toNamed('/splash/basic');
   }
 
 }

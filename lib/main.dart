@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:pingpong/intro.dart';
-import 'package:pingpong/pages/home/home.dart';
+import 'package:pingpong/pages/main/home.dart';
 import 'package:pingpong/pages/signup/signup_final_check.dart';
 import 'package:pingpong/pages/signup/signup_nickname.dart';
 import 'package:pingpong/pages/signup/signup_profile.dart';

@@ -89,7 +89,7 @@ List<OtherUserData> otherUser = [
     studentId: "21100126",
     email: "fff@naver.com",
     profileImage: "assets/images/other/user_6.jpg",
-    uniLifeType: "6",
+    uniLifeType: "1",
     state: "blue",
   ),
   const OtherUserData(
@@ -100,7 +100,7 @@ List<OtherUserData> otherUser = [
     studentId: "21100986",
     email: "ggg@naver.com",
     profileImage: "assets/images/other/user_7.jpg",
-    uniLifeType: "7",
+    uniLifeType: "2",
     state: "green",
   ),
   const OtherUserData(
@@ -111,7 +111,7 @@ List<OtherUserData> otherUser = [
     studentId: "22100581",
     email: "hhh@naver.com",
     profileImage: "assets/images/other/user_8.jpeg",
-    uniLifeType: "8",
+    uniLifeType: "3",
     state: "yellow",
   ),
   const OtherUserData(
@@ -122,7 +122,7 @@ List<OtherUserData> otherUser = [
     studentId: "22103811",
     email: "iii@naver.com",
     profileImage: "assets/images/other/user_9.jpeg",
-    uniLifeType: "9",
+    uniLifeType: "4",
     state: "green",
   ),
   const OtherUserData(
@@ -133,7 +133,7 @@ List<OtherUserData> otherUser = [
     studentId: "22100981",
     email: "jjj@naver.com",
     profileImage: "assets/images/other/user_10.jpg",
-    uniLifeType: "10",
+    uniLifeType: "5",
     state: "blue",
   ),
 

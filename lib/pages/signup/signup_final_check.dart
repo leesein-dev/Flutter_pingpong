@@ -4,7 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:pingpong/controller/sigunup_controller.dart';
-import 'package:pingpong/utilities/custom/color/custom_color.dart';
+import 'package:pingpong/components/color/custom_color.dart';
 import 'package:widget_mask/widget_mask.dart';
 
 class SignupFinalCheck extends StatelessWidget {
@@ -68,7 +68,7 @@ class SignupFinalCheck extends StatelessWidget {
                         alignment: Alignment.center,
                         width: 190,
                         child: Image.asset(
-                          'assets/images/profile/profile_bg_yellow_type_${controller.type}.png',
+                          'assets/images/profile/profile_bg_type_${controller.type}.png',
                           fit: BoxFit.cover,
                         ),
                       ),
@@ -82,7 +82,7 @@ class SignupFinalCheck extends StatelessWidget {
                           fit: BoxFit.cover,
                         ),
                         child: Image.asset(
-                          'assets/images/profile/profile_bg_yellow_type_${controller.type}.png',
+                          'assets/images/profile/profile_bg_type_${controller.type}.png',
                           fit: BoxFit.cover,
                           width: 170,
                         ),
@@ -173,7 +173,7 @@ class SignupFinalCheck extends StatelessWidget {
                 children: [
                   GestureDetector(
                       onTap: () {
-                        Get.toNamed('/splash/basic');
+                        controller.gotoHome();
                       },
                       child: Container(
                         alignment: Alignment.center,
