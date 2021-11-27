@@ -4,6 +4,8 @@ import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:pingpong/intro.dart';
 import 'package:pingpong/pages/main/home.dart';
+import 'package:pingpong/pages/main/ping.dart';
+import 'package:pingpong/pages/main/ping_send.dart';
 import 'package:pingpong/pages/signup/signup_final_check.dart';
 import 'package:pingpong/pages/signup/signup_nickname.dart';
 import 'package:pingpong/pages/signup/signup_profile.dart';
@@ -43,6 +45,8 @@ class MyApp extends StatelessWidget {
         GetPage(name: "/auth/signup/schoolLifeType", page: ()=>const SignupSchoolLifeType(), transition: Transition.rightToLeftWithFade),
         GetPage(name: "/auth/signup/finalCheck", page: ()=>const SignupFinalCheck(), transition: Transition.fadeIn),
         GetPage(name: "/home", page: ()=>const Home(), transition: Transition.fadeIn),
+        GetPage(name: "/ping", page: ()=>const Ping(), transition: Transition.fadeIn),
+        GetPage(name: "/ping/send", page: ()=>const PingSend(), transition: Transition.fadeIn),
       ],
     );
   }

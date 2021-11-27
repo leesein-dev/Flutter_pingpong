@@ -27,5 +27,9 @@ class HomeController extends GetxController
     update(['Home']);
   }
 
+  void ping() {
+    Get.toNamed('/ping');
+  }
+
 
 }

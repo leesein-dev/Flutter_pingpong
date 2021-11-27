@@ -224,7 +224,6 @@ class _HomeState extends State<Home> {
                             onTab: () {
                               controller.placeDetail();
                             },
-                            // unicode: isPing ? '\u{1F370}' : '',
                             unicode: '\u{1F370}',
                             visible: isPing,
                           ),
@@ -245,9 +244,9 @@ class _HomeState extends State<Home> {
                             bgWidth: 120,
                             maskWidth: 105,
                             bgImage:
-                                'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/fc81369a-29ea-4050-a40b-ec1076c48a13/profile_bg_blue_type_2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211125T134505Z&X-Amz-Expires=86400&X-Amz-Signature=44d68bb8880120b1a510e0f16ec58e66af2df6a0e1e5c0bb66fe69dfb0d7d632&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22profile_bg_blue_type_2.png%22&x-id=GetObject',
+                                'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/fc81369a-29ea-4050-a40b-ec1076c48a13/profile_bg_blue_type_2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211127T022236Z&X-Amz-Expires=86400&X-Amz-Signature=9803ac80073cd17784c7043acc75558f2688b841e66a4c30fcb223e632952d7b&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22profile_bg_blue_type_2.png%22&x-id=GetObject',
                             maskImage:
-                                'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0f74cb13-8b78-4293-9a6f-1e6df38f8239/profile_type_2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211125T134555Z&X-Amz-Expires=86400&X-Amz-Signature=89eb5fe5a675f3af985cc053797ac61e8f919b49e14f691c9742b719aa2bcb30&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22profile_type_2.png%22&x-id=GetObject',
+                                'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0f74cb13-8b78-4293-9a6f-1e6df38f8239/profile_type_2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211127T022256Z&X-Amz-Expires=86400&X-Amz-Signature=e3e8b1e356838b1e023d3a14b5babc8f92ae6025209a395a336f07e7f35c7b77&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22profile_type_2.png%22&x-id=GetObject',
                             profileImage:
                                 'https://blog.kakaocdn.net/dn/sOFQo/btqFXIdG4BC/OSX6phlqjlj7p3EYH1jZjk/img.png',
                           ),
@@ -259,11 +258,11 @@ class _HomeState extends State<Home> {
                             bgWidth: 100,
                             maskWidth: 88,
                             bgImage:
-                                'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7655e4e2-0427-4b46-9e86-b001faa667d0/profile_bg_green_type_3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211125T134748Z&X-Amz-Expires=86400&X-Amz-Signature=fb27a791bfccc4c835701e1c8ba1489076a3442ebf33fb1bc55a01db2f71a7af&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22profile_bg_green_type_3.png%22&x-id=GetObject',
+                                'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7655e4e2-0427-4b46-9e86-b001faa667d0/profile_bg_green_type_3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211127T044820Z&X-Amz-Expires=86400&X-Amz-Signature=cd64be3fc59166cfca07dc82034835b1e2b20bb3a170af06c50418a22846435a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22profile_bg_green_type_3.png%22&x-id=GetObject',
                             maskImage:
-                                'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4db40d67-8887-43cf-8c16-1fab15780c5c/profile_type_3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211125T134723Z&X-Amz-Expires=86400&X-Amz-Signature=dfc7c39effe78be03fd94129e49528dafd68910b4dc50718ea45568f3e0aa965&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22profile_type_3.png%22&x-id=GetObject',
+                                'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4db40d67-8887-43cf-8c16-1fab15780c5c/profile_type_3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211127T044743Z&X-Amz-Expires=86400&X-Amz-Signature=9bffa0fe1fa1b9d52377b39df1ab39fb2868157edd2d2814437f85ad2433ccba&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22profile_type_3.png%22&x-id=GetObject',
                             profileImage:
-                                'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/56ca53b2-d94c-4491-8dc5-d38399153deb/user_3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211126%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211126T031902Z&X-Amz-Expires=86400&X-Amz-Signature=733ddae93e19fd4e979641bb07bb8b8e27cf97f05503ef7022dbc427bf007fd5&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22user_3.jpg%22&x-id=GetObject',
+                                'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/56ca53b2-d94c-4491-8dc5-d38399153deb/user_3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211127T045228Z&X-Amz-Expires=86400&X-Amz-Signature=16484e7dea9461354fbefefcd421463da3f4b0439b452e605a77716c666249ee&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22user_3.jpg%22&x-id=GetObject',
                           ),
                           CustomPositionPlace(
                             bottom: 250,
@@ -281,11 +280,11 @@ class _HomeState extends State<Home> {
                             bgWidth: 95,
                             maskWidth: 82,
                             bgImage:
-                                'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5a8fcda8-bddb-42d0-8e65-43ef5c18ddaa/profile_bg_red_type_4.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211125T135105Z&X-Amz-Expires=86400&X-Amz-Signature=b0fabd3b7afadde3a181acad5f78c6d3cb29a993a5f87f9aa6e5a805e205354a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22profile_bg_red_type_4.png%22&x-id=GetObject',
+                                'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5a8fcda8-bddb-42d0-8e65-43ef5c18ddaa/profile_bg_red_type_4.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211127T045008Z&X-Amz-Expires=86400&X-Amz-Signature=98102638a7522029c096814907abd837e9a61c4f9fabe1a476598c48e4e0acf7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22profile_bg_red_type_4.png%22&x-id=GetObject',
                             maskImage:
-                                'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/09193066-f8a8-4d41-8b41-7c85e3fab485/profile_type_4.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211125T135038Z&X-Amz-Expires=86400&X-Amz-Signature=f78a53c49c06103925cfde9d359ce8942c4c7e1cad1e76c6d842f782daa95cb8&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22profile_type_4.png%22&x-id=GetObject',
+                                'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/09193066-f8a8-4d41-8b41-7c85e3fab485/profile_type_4.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211127T044852Z&X-Amz-Expires=86400&X-Amz-Signature=962d6f3ae4c999f9d712816cc122d30f06a983f82de5c90348e74379b8571e08&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22profile_type_4.png%22&x-id=GetObject',
                             profileImage:
-                                'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/37813810-d6b8-479f-8374-c52588b11477/user_2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211126%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211126T031944Z&X-Amz-Expires=86400&X-Amz-Signature=f044e0e837e8fbb98eb402d9b561537d5c0bed115c0472a2f0a0eb65a359f185&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22user_2.jpg%22&x-id=GetObject',
+                                'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/37813810-d6b8-479f-8374-c52588b11477/user_2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211127T045149Z&X-Amz-Expires=86400&X-Amz-Signature=7917ebb7675860e4376cb70e818d7408480d01846ce6ef41c6875b25eb9e8aa5&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22user_2.jpg%22&x-id=GetObject',
                           ),
                           CustomPositionPlace(
                             bottom: 370,
@@ -303,11 +302,11 @@ class _HomeState extends State<Home> {
                             bgWidth: 85,
                             maskWidth: 72,
                             bgImage:
-                                'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/35561510-6f72-40ab-a2bf-4463d70f9201/profile_bg_yellow_type_5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211125T135216Z&X-Amz-Expires=86400&X-Amz-Signature=b4668170510e82f6b4cfa466b33188f5ff4d1bcf56682a027a1ac48f8aa5e466&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22profile_bg_yellow_type_5.png%22&x-id=GetObject',
+                                'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/35561510-6f72-40ab-a2bf-4463d70f9201/profile_bg_yellow_type_5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211127T045052Z&X-Amz-Expires=86400&X-Amz-Signature=4f6def5eca65683e701048929baa845d1fc4ce96faafc4e96a39d2775d2b7faa&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22profile_bg_yellow_type_5.png%22&x-id=GetObject',
                             maskImage:
-                                'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b93c856e-c922-4fbc-a740-ef7fb4748cac/profile_type_5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211125T135139Z&X-Amz-Expires=86400&X-Amz-Signature=8289a16089d0db0fc97aadcee02d86637131937896179610b9effd076bbd4c24&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22profile_type_5.png%22&x-id=GetObject',
+                                'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b93c856e-c922-4fbc-a740-ef7fb4748cac/profile_type_5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211127T044915Z&X-Amz-Expires=86400&X-Amz-Signature=fea816618e7f244716f6a788e4d39387ecf4898639e9b9cf5b5e226698a64173&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22profile_type_5.png%22&x-id=GetObject',
                             profileImage:
-                                'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/70cf09fb-c9d6-45cd-a513-08d3533542ac/user_8.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211126%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211126T031755Z&X-Amz-Expires=86400&X-Amz-Signature=7baa1c59e329c3364228327e578b8bf9480cbd53283b31aeb398cde6614cacf0&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22user_8.jpeg%22&x-id=GetObject',
+                                'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/70cf09fb-c9d6-45cd-a513-08d3533542ac/user_8.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211127T045249Z&X-Amz-Expires=86400&X-Amz-Signature=7dea979aabdf17edd332d8b5356f92c8ed2f0df82cccf30dd0d1e5b6aafd6959&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22user_8.jpeg%22&x-id=GetObject',
                           ),
                           CustomPositionProfile(
                             bottom: 450,
@@ -317,11 +316,11 @@ class _HomeState extends State<Home> {
                             bgWidth: 75,
                             maskWidth: 65,
                             bgImage:
-                                'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/243b8ab4-48f4-4221-a6b9-4174f8604650/profile_bg_blue_type_1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211125T135252Z&X-Amz-Expires=86400&X-Amz-Signature=bab150d846e5a32151ce37218e1b04ec4541783207d673b261aa24d76b23572c&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22profile_bg_blue_type_1.png%22&x-id=GetObject',
+                                'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/243b8ab4-48f4-4221-a6b9-4174f8604650/profile_bg_blue_type_1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211127T045029Z&X-Amz-Expires=86400&X-Amz-Signature=f46e7626eabe2dcb4173f94d5ef1604d3b3fedbb4fb2baf5ac80897ccc9774ff&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22profile_bg_blue_type_1.png%22&x-id=GetObject',
                             maskImage:
-                                'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/af5d3de3-cd16-4507-a89c-4a1db63f89d9/profile_type_1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211125T133137Z&X-Amz-Expires=86400&X-Amz-Signature=ddb4c2336ded49156470a07d18b034c6e6cfde11550c9190ea416504054f22b7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22profile_type_1.png%22&x-id=GetObject',
+                                'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/af5d3de3-cd16-4507-a89c-4a1db63f89d9/profile_type_1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211127T044940Z&X-Amz-Expires=86400&X-Amz-Signature=a3a95765b0178b0b720147ff598909f4adbbb1ab99b9fca938df1bfbe153a37e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22profile_type_1.png%22&x-id=GetObject',
                             profileImage:
-                                'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e7d7263c-423c-4297-ac2b-5b619923319e/user_1.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211126%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211126T032005Z&X-Amz-Expires=86400&X-Amz-Signature=6a22008b445e3040bd42aa1ccce3d045a3f7a445ace846e9da09eacce9d11d85&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22user_1.jpeg%22&x-id=GetObject',
+                                'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e7d7263c-423c-4297-ac2b-5b619923319e/user_1.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211127T045310Z&X-Amz-Expires=86400&X-Amz-Signature=b15797f44574514a50ba5343fb6fa32c25e398ae7f571eb1c14b55da0e720264&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22user_1.jpeg%22&x-id=GetObject',
                           ),
                         ],
                       ),
@@ -362,7 +361,7 @@ class _HomeState extends State<Home> {
                                                         const BoxDecoration(
                                                       image: DecorationImage(
                                                         image: NetworkImage(
-                                                          'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e03d3fe4-be31-4b3a-88fa-26f671f45c33/user_6.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211126%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211126T032202Z&X-Amz-Expires=86400&X-Amz-Signature=24098ebb1c8e891bbdf8cdaccaacb41710d242f68e9eb05f70abc6c2cbe6a662&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22user_6.jpg%22&x-id=GetObject',
+                                                          'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e03d3fe4-be31-4b3a-88fa-26f671f45c33/user_6.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211127T045651Z&X-Amz-Expires=86400&X-Amz-Signature=07c74184a82333c8c715dec3169ce4a5e79d496eeb5cdc27d317251e6f5144bc&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22user_6.jpg%22&x-id=GetObject',
                                                         ),
                                                         fit: BoxFit.cover,
                                                       ),
@@ -391,7 +390,7 @@ class _HomeState extends State<Home> {
                                                         const BoxDecoration(
                                                       image: DecorationImage(
                                                         image: NetworkImage(
-                                                          'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/23e5e353-e875-43f1-bcd4-e50704e6087c/user_4.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211126%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211126T032248Z&X-Amz-Expires=86400&X-Amz-Signature=33a2444040e3e1e7b26ecb7481a86d9aa5f128b33c9108b61cb57ed0e4cb88fb&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22user_4.jpg%22&x-id=GetObject',
+                                                          'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/23e5e353-e875-43f1-bcd4-e50704e6087c/user_4.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211127T045629Z&X-Amz-Expires=86400&X-Amz-Signature=b0c6306b7b6634811dbd6a1d72795ff0d7cda1563ca88f993ddc991fbd6d1d71&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22user_4.jpg%22&x-id=GetObject',
                                                         ),
                                                         fit: BoxFit.cover,
                                                       ),
@@ -418,7 +417,7 @@ class _HomeState extends State<Home> {
                                                       const BoxDecoration(
                                                     image: DecorationImage(
                                                       image: NetworkImage(
-                                                        'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/20d488b1-55a8-4f20-a50e-04371a3bafd8/user_5.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211126%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211126T032156Z&X-Amz-Expires=86400&X-Amz-Signature=ff3a49d35a9dd918dbc6cff95f942e340a4fbfaca19611ee5e264ad4dcaea723&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22user_5.jpg%22&x-id=GetObject',
+                                                        'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/20d488b1-55a8-4f20-a50e-04371a3bafd8/user_5.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211127T045503Z&X-Amz-Expires=86400&X-Amz-Signature=9d5b3b258bee9a299dc7a67c0baa7ef0883d8900b54932fd36b76a079b33b088&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22user_5.jpg%22&x-id=GetObject',
                                                       ),
                                                       fit: BoxFit.cover,
                                                     ),
@@ -458,11 +457,11 @@ class _HomeState extends State<Home> {
                                     bgWidth: 95,
                                     maskWidth: 82,
                                     bgImage:
-                                        'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/fc81369a-29ea-4050-a40b-ec1076c48a13/profile_bg_blue_type_2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211126%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211126T011131Z&X-Amz-Expires=86400&X-Amz-Signature=b84037f01de0751580b605d93c7b89cf9adfdf389cf3b39f017b5f46fea1687f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22profile_bg_blue_type_2.png%22&x-id=GetObject',
+                                        'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/fc81369a-29ea-4050-a40b-ec1076c48a13/profile_bg_blue_type_2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211127T045438Z&X-Amz-Expires=86400&X-Amz-Signature=203236bf97445dd6d1cd27f7e68161a8730866868613b66af98b77a1f38c3773&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22profile_bg_blue_type_2.png%22&x-id=GetObject',
                                     maskImage:
-                                        'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0f74cb13-8b78-4293-9a6f-1e6df38f8239/profile_type_2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211125T134555Z&X-Amz-Expires=86400&X-Amz-Signature=89eb5fe5a675f3af985cc053797ac61e8f919b49e14f691c9742b719aa2bcb30&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22profile_type_2.png%22&x-id=GetObject',
+                                        'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0f74cb13-8b78-4293-9a6f-1e6df38f8239/profile_type_2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211127T045420Z&X-Amz-Expires=86400&X-Amz-Signature=54319b7d3ecf37a01884e9421fd88b5146d2cee735c71782cf678654acc89b8e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22profile_type_2.png%22&x-id=GetObject',
                                     profileImage:
-                                        'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7b3a8034-1144-4df1-9f0e-28a2522f2f23/user_7.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211126%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211126T031839Z&X-Amz-Expires=86400&X-Amz-Signature=e575a1a1d101948c3b15e72bdaf2ea5d6d1933aaf5bb9542abd22e5b1beec474&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22user_7.jpg%22&x-id=GetObject',
+                                        'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7b3a8034-1144-4df1-9f0e-28a2522f2f23/user_7.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211127T045341Z&X-Amz-Expires=86400&X-Amz-Signature=bb7dc972ca5a10a7ac8aa18dc238f7f8b06943cebdce07b553d30f559798402e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22user_7.jpg%22&x-id=GetObject',
                                   ),
                                   const SizedBox(
                                     height: 8,
@@ -476,7 +475,7 @@ class _HomeState extends State<Home> {
                                         decoration: const BoxDecoration(
                                           image: DecorationImage(
                                             image: NetworkImage(
-                                              'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2cbb9ba1-5a1a-4a9c-8bae-a15da9c5aa19/home_my_profile_type_2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211126%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211126T031243Z&X-Amz-Expires=86400&X-Amz-Signature=e6a827e9c210c4109968df61dbf116fb94ea2ce686f9778118791cf9103a8b44&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22home_my_profile_type_2.png%22&x-id=GetObject',
+                                              'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2cbb9ba1-5a1a-4a9c-8bae-a15da9c5aa19/home_my_profile_type_2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211127T045739Z&X-Amz-Expires=86400&X-Amz-Signature=72691223ab8e917887dae4f2493893e55af6be259cf0017b7824e0b8ccc566e0&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22home_my_profile_type_2.png%22&x-id=GetObject',
                                             ),
                                             fit: BoxFit.cover,
                                           ),
@@ -550,7 +549,7 @@ class _HomeState extends State<Home> {
                                                 ),
                                                 image: const DecorationImage(
                                                   image: NetworkImage(
-                                                    'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a576c173-6eec-4df2-9259-8064f4969f8e/user_9.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211126%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211126T032504Z&X-Amz-Expires=86400&X-Amz-Signature=af5c355dff8f550b45d86e210af7df22ba895046c068dab51957962fe3532640&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22user_9.jpeg%22&x-id=GetObject',
+                                                    'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a576c173-6eec-4df2-9259-8064f4969f8e/user_9.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211127%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211127T045713Z&X-Amz-Expires=86400&X-Amz-Signature=168edcaf9838bd5087294bf6681af7d2ef70a2e3f59e7a22be0a41e748540cdc&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22user_9.jpeg%22&x-id=GetObject',
                                                   ),
                                                   fit: BoxFit.cover,
                                                 ),
@@ -633,7 +632,9 @@ class _HomeState extends State<Home> {
                         child: Align(
                           alignment: Alignment.bottomCenter,
                           child: GestureDetector(
-                            onTap: () {},
+                            onTap: () {
+                              controller.ping();
+                            },
                             child: Container(
                               padding: const EdgeInsets.all(10.0),
                               width: 80,
