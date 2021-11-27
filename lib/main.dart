@@ -6,6 +6,8 @@ import 'package:pingpong/intro.dart';
 import 'package:pingpong/pages/main/home.dart';
 import 'package:pingpong/pages/main/ping.dart';
 import 'package:pingpong/pages/main/ping_send.dart';
+import 'package:pingpong/pages/main/pong.dart';
+import 'package:pingpong/pages/main/pong_send.dart';
 import 'package:pingpong/pages/signup/signup_final_check.dart';
 import 'package:pingpong/pages/signup/signup_nickname.dart';
 import 'package:pingpong/pages/signup/signup_profile.dart';
@@ -47,6 +49,8 @@ class MyApp extends StatelessWidget {
         GetPage(name: "/home", page: ()=>const Home(), transition: Transition.fadeIn),
         GetPage(name: "/ping", page: ()=>const Ping(), transition: Transition.fadeIn),
         GetPage(name: "/ping/send", page: ()=>const PingSend(), transition: Transition.fadeIn),
+        GetPage(name: "/pong", page: ()=>const Pong(), transition: Transition.fadeIn),
+        GetPage(name: "/pong/send", page: ()=>const PongSend(), transition: Transition.fadeIn),
       ],
     );
   }

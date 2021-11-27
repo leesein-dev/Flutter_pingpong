@@ -52,7 +52,7 @@ class PingController extends GetxController {
     }
   }
 
-  void pong() {
+  void ping() {
     Timer(const Duration(milliseconds: 100), () => Get.offAndToNamed('/splash/ping'));
   }
 

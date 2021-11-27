@@ -74,12 +74,27 @@ class PingSplashScreen extends StatelessWidget {
   }
 }
 
+class PongSplashController extends GetxController {
+
+  @override
+  void onInit() {
+    super.onInit();
+    Timer(const Duration(milliseconds: 1500), () => Get.offAndToNamed('/pong'));
+  }
+
+  @override
+  void onClose() {
+    super.onClose();
+  }
+
+}
+
 class PongSplashScreen extends StatelessWidget {
   const PongSplashScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    Get.put(SplashController());
+    Get.put(PongSplashController());
 
     return Container(
       decoration: const BoxDecoration(

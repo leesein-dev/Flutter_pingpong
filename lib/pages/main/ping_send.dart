@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:pingpong/components/color/custom_color.dart';
-import 'package:pingpong/components/ping/custom_ping.dart';
 import 'package:pingpong/components/ping/custom_ping_send.dart';
 import 'package:pingpong/controller/ping_controller.dart';
 

@@ -71,7 +71,7 @@ class _SendPingState extends State<SendPing> {
                   setState(() {
                     cardOffset = Offset(cardOffset.dx,
                         cardOffset.dy - Get.height);
-                    controller.pong();
+                    controller.ping();
                   });
                 },
                 child: Column(
