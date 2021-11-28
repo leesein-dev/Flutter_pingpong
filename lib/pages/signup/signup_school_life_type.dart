@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:pingpong/components/signup/custom_indicator.dart';
 import 'package:pingpong/controller/sigunup_controller.dart';
 import 'package:pingpong/components/color/custom_color.dart';
 
@@ -63,153 +64,8 @@ class SignupSchoolLifeType extends StatelessWidget {
                   const SizedBox(
                     height: 20,
                   ),
-                  Row(
-                    children: [
-                      Container(
-                        width: 30,
-                        height: 30,
-                        alignment: Alignment.center,
-                        decoration: BoxDecoration(
-                          shape: BoxShape.circle,
-                          border: Border.all(
-                            width: 2,
-                            color: ContentsColors.enableColor,
-                          ),
-                        ),
-                        child: const Text(
-                          '1',
-                          style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            fontFamily: 'Mont',
-                            color: ContentsColors.enableColor,
-                          ),
-                        ),
-                      ),
-                      const SizedBox(
-                        width: 3,
-                      ),
-                      Container(
-                        width: 12,
-                        height: 2.0,
-                        color: ContentsColors.enableColor,
-                      ),
-                      const SizedBox(
-                        width: 3,
-                      ),
-                      Container(
-                        width: 30,
-                        height: 30,
-                        alignment: Alignment.center,
-                        decoration: BoxDecoration(
-                          shape: BoxShape.circle,
-                          border: Border.all(
-                            width: 2,
-                            color: ContentsColors.enableColor,
-                          ),
-                        ),
-                        child: const Text(
-                          '2',
-                          style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            fontFamily: 'Mont',
-                            color: ContentsColors.enableColor,
-                          ),
-                        ),
-                      ),
-                      const SizedBox(
-                        width: 3,
-                      ),
-                      Container(
-                        width: 12,
-                        height: 2.0,
-                        color: ContentsColors.enableColor,
-                      ),
-                      const SizedBox(
-                        width: 3,
-                      ),
-                      Container(
-                        width: 30,
-                        height: 30,
-                        alignment: Alignment.center,
-                        decoration: BoxDecoration(
-                          shape: BoxShape.circle,
-                          border: Border.all(
-                            width: 2,
-                            color: ContentsColors.enableColor,
-                          ),
-                        ),
-                        child: const Text(
-                          '3',
-                          style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            fontFamily: 'Mont',
-                            color: ContentsColors.enableColor,
-                          ),
-                        ),
-                      ),
-                      const SizedBox(
-                        width: 3,
-                      ),
-                      Container(
-                        width: 12,
-                        height: 2.0,
-                        color: ContentsColors.enableColor,
-                      ),
-                      const SizedBox(
-                        width: 3,
-                      ),
-                      Container(
-                        width: 30,
-                        height: 30,
-                        alignment: Alignment.center,
-                        decoration: BoxDecoration(
-                          shape: BoxShape.circle,
-                          border: Border.all(
-                            width: 2,
-                            color: ContentsColors.enableColor,
-                          ),
-                        ),
-                        child: const Text(
-                          '4',
-                          style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            fontFamily: 'Mont',
-                            color: ContentsColors.enableColor,
-                          ),
-                        ),
-                      ),
-                      const SizedBox(
-                        width: 3,
-                      ),
-                      Container(
-                        width: 12,
-                        height: 2.0,
-                        color: ContentsColors.enableColor,
-                      ),
-                      const SizedBox(
-                        width: 3,
-                      ),
-                      Container(
-                        width: 30,
-                        height: 30,
-                        alignment: Alignment.center,
-                        decoration: BoxDecoration(
-                          shape: BoxShape.circle,
-                          border: Border.all(
-                            width: 2,
-                            color: Colors.black,
-                          ),
-                        ),
-                        child: const Text(
-                          '5',
-                          style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            fontFamily: 'Mont',
-                            color: Colors.black,
-                          ),
-                        ),
-                      ),
-                    ],
+                  const Indicator(
+                    currentPage: 5,
                   ),
                   const SizedBox(
                     height: 70,
@@ -224,7 +80,7 @@ class SignupSchoolLifeType extends StatelessWidget {
                         itemBuilder: (_, i) {
                           return Transform.scale(
                             scale: i == controller.typeIndex ? 1 : 0.9,
-                            child: Image.asset('assets/images/${images[i]}'),
+                            child: Image.asset('assets/images/signup/${images[i]}'),
                           );
                         },
                       ),

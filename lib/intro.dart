@@ -6,15 +6,12 @@ import 'package:get/get.dart';
 import 'package:pingpong/components/image/custom_logo_image.dart';
 
 class IntroController extends GetxController {
-
   @override
   void onInit() {
     super.onInit();
-    // Timer(const Duration(milliseconds: 2000),
-    //         () => Get.offAllNamed('/auth/signup/nickname')
-    // );
-    Timer(const Duration(milliseconds: 2000),
-            () => Get.offAllNamed('/home')
+    Timer(
+      const Duration(milliseconds: 2000),
+      () => Get.offAllNamed('/auth/signup/nickname'),
     );
   }
 
@@ -22,16 +19,13 @@ class IntroController extends GetxController {
   void onClose() {
     super.onClose();
   }
-
 }
 
 class Intro extends StatelessWidget {
-
   const Intro({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-
     Get.put(IntroController());
 
     return const Scaffold(

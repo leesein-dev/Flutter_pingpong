@@ -286,7 +286,7 @@ class PongDownload extends StatelessWidget {
                               decoration: const BoxDecoration(
                                 image: DecorationImage(
                                   image: AssetImage(
-                                    "assets/images/pong_all.png",
+                                    "assets/images/pong/pong_all.png",
                                   ),
                                   fit: BoxFit.fill,
                                 ),
@@ -312,7 +312,7 @@ class PongDownload extends StatelessWidget {
                               decoration: const BoxDecoration(
                                 image: DecorationImage(
                                   image: AssetImage(
-                                    "assets/images/pong_album.png",
+                                    "assets/images/pong/pong_album.png",
                                   ),
                                   fit: BoxFit.fill,
                                 ),
@@ -338,7 +338,7 @@ class PongDownload extends StatelessWidget {
                               decoration: const BoxDecoration(
                                 image: DecorationImage(
                                   image: AssetImage(
-                                    "assets/images/pong_app.png",
+                                    "assets/images/pong/pong_app.png",
                                   ),
                                   fit: BoxFit.fill,
                                 ),

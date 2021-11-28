@@ -17,7 +17,9 @@ import 'package:pingpong/pages/signup/signup_school_mail.dart';
 import 'package:pingpong/splash_screen.dart';
 
 void main() async{
+  // runApp 메소드의 시작 지점에서 Flutter 엔진과 위젯의 바인딩이 미리 완료되어 있도록 불러오는 작업.
   WidgetsFlutterBinding.ensureInitialized();
+  // 자동로그인 구현을 위한 디바이스 메모리 내 저장된 정보 불러오기
   await GetStorage.init();
   runApp(const MyApp());
 }
@@ -31,7 +33,7 @@ class MyApp extends StatelessWidget {
 
     return GetMaterialApp(
       theme: ThemeData(
-        fontFamily: 'Noto',
+        fontFamily: 'Noto', // 한글 'Noto', 영문 'Mont'
       ),
       debugShowCheckedModeBanner: false,
       initialRoute: "/",

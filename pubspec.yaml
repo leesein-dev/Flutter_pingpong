@@ -79,6 +79,10 @@ flutter:
   assets:
     - assets/images/
     - assets/images/profile/
+    - assets/images/home/
+    - assets/images/pong/
+    - assets/images/ping/
+    - assets/images/signup/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

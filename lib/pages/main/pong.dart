@@ -68,7 +68,7 @@ class Pong extends StatelessWidget {
                         decoration: const BoxDecoration(
                           image: DecorationImage(
                             image: AssetImage(
-                              "assets/images/home_drag_zone_yellow.png",
+                              "assets/images/drag_zone_yellow.png",
                             ),
                             fit: BoxFit.fill,
                           ),

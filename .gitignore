@@ -44,3 +44,6 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# 서버통신 폴더, repository가 private인 경우 다시 변경 예정.
+/api

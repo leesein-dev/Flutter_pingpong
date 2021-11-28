@@ -79,7 +79,7 @@ class Ping extends StatelessWidget {
                             decoration: const BoxDecoration(
                               image: DecorationImage(
                                 image: AssetImage(
-                                  "assets/images/ping_text.png",
+                                  "assets/images/ping/ping_text.png",
                                 ),
                                 fit: BoxFit.fill,
                               ),
@@ -94,7 +94,7 @@ class Ping extends StatelessWidget {
                             decoration: const BoxDecoration(
                               image: DecorationImage(
                                 image: AssetImage(
-                                  "assets/images/ping_favorite.png",
+                                  "assets/images/ping/ping_favorite.png",
                                 ),
                                 fit: BoxFit.fill,
                               ),
@@ -109,7 +109,7 @@ class Ping extends StatelessWidget {
                             decoration: const BoxDecoration(
                               image: DecorationImage(
                                 image: AssetImage(
-                                  "assets/images/ping_all.png",
+                                  "assets/images/ping/ping_all.png",
                                 ),
                                 fit: BoxFit.fill,
                               ),
@@ -126,7 +126,7 @@ class Ping extends StatelessWidget {
                             decoration: const BoxDecoration(
                               image: DecorationImage(
                                 image: AssetImage(
-                                  "assets/images/ping_camera.png",
+                                  "assets/images/ping/ping_camera.png",
                                 ),
                                 fit: BoxFit.fill,
                               ),

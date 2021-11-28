@@ -120,7 +120,7 @@ class _HomeState extends State<Home> {
                                 decoration: const BoxDecoration(
                                   image: DecorationImage(
                                     image: AssetImage(
-                                      "assets/images/home_drag_zone_green.png",
+                                      "assets/images/drag_zone_green.png",
                                     ),
                                     fit: BoxFit.fill,
                                   ),
@@ -134,7 +134,7 @@ class _HomeState extends State<Home> {
                                 decoration: const BoxDecoration(
                                   image: DecorationImage(
                                     image: AssetImage(
-                                      "assets/images/home_drag_zone_yellow.png",
+                                      "assets/images/drag_zone_yellow.png",
                                     ),
                                     fit: BoxFit.fill,
                                   ),
@@ -209,7 +209,7 @@ class _HomeState extends State<Home> {
                                 decoration: const BoxDecoration(
                                   image: DecorationImage(
                                     image: AssetImage(
-                                      'assets/images/icon_message.jpg',
+                                      'assets/images/button_message.jpg',
                                     ),
                                     fit: BoxFit.contain,
                                   ),
@@ -650,8 +650,8 @@ class _HomeState extends State<Home> {
                                   ),
                                 ],
                               ),
-                              child: Image.network(
-                                'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1058bb51-8864-498c-8617-079cbe8222d5/ping.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20211126%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211126T064334Z&X-Amz-Expires=86400&X-Amz-Signature=db78a3c1f4465de34756b118c994f50fec29293507e04b57939153eb629c7502&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22ping.png%22&x-id=GetObject',
+                              child: Image.asset(
+                                'assets/images/ping/ping_button_logo.png',
                               ),
                             ),
                           ),
